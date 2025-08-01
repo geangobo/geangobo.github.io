@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Site!</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
-        h1 { color: #333; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio Gean Gobo</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Bem-vindo ao meu site!</h1>
-    <p>Esta página está hospedada gratuitamente no GitHub Pages.</p>
+  <div class="container">
+    <img src="img/gean.jpg" alt="Foto de Gean Gobo" class="profile-photo">
+    <div class="prompt-area">
+      <input type="text" id="user-question" placeholder="Faça uma pergunta sobre Gean..." autocomplete="off">
+      <button id="send-btn" title="Enviar">
+        <span>➤</span>
+      </button>
+    </div>
+    <div id="response"></div>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
+
